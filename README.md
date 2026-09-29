@@ -34,26 +34,6 @@ No framework required. Works on its own and optionally integrates with `qb-targe
    shared_script '@ox_lib/init.lua'
    ```
 
-## Files
-
-```
-jinn-carry/
-├── fxmanifest.lua      Resource manifest
-├── config.js           Shared config: settings, carry styles, language
-├── README.md           This file
-├── client/
-│   └── client.js       Client logic: carry / trunk / seat, exports, target setup
-└── server/
-    └── server.js       Server logic: validated relay between clients
-```
-
-| File                | Side   | Purpose                                            |
-| ------------------- | ------ | -------------------------------------------------- |
-| `fxmanifest.lua`    | -      | Resource manifest                                  |
-| `config.js`         | shared | All settings, carry styles, language               |
-| `client/client.js`  | client | Carry / trunk / seat logic, exports, target setup  |
-| `server/server.js`  | server | Validated relay between clients                    |
-
 ## Commands
 
 | Command         | Default Key | Description                                     |
